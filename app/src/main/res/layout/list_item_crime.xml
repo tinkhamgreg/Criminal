@@ -32,6 +32,13 @@
         android:paddingTop="4dp"
         android:layout_toLeftOf="@id/crime_list_item_solvedCheckBox"
         android:layout_below="@id/crime_list_item_titleTextView"
+        android:layout_toRightOf="@+id/imageView"
          />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/crime_list_item_titleTextView"
+        android:id="@+id/imageView" />
 
 </RelativeLayout>
